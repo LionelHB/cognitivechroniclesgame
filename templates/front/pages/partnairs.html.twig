@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Partenaires
+{% endblock %}
+
+{% block body %}
+{% block toptext %}
+		<div id='topContent'>
+			<div class="topText topWithFont">
+				<p class="gradient-text">Les partenaires</p>
+			{% endblock %}
+	{% block pagecontent %}
+		<div id="backgroundContent">
+			<section>
+				<div class='blockContent'>
+					<div class='blockImagePartnairs'>
+						<div class='partnair'>
+							<img src="{{ asset('assets/logo/partnair0.webp') }}" alt="Logo">
+							<h3>QuestRelicChain</h3>
+						</div>
+
+						<div class='partnair'>
+							<img src="{{ asset('assets/logo/partnair1.1.webp') }}" alt="Logo">
+							<h3>Les chantiers du Gobelin</h3>
+						</div>
+
+						<div class='partnair'>
+							<img src="{{ asset('assets/logo/partnair2.webp') }}" alt="Logo">
+							<h3>Zen RPG</h3>
+						</div>
+					</div>
+				</div>
+				<div class='blockContent'>
+					
+				</div>
+			</section>
+		</div>
+	{% endblock %}
+{% endblock %}

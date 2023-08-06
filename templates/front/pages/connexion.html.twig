@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block body %}
+	{% block toptext %}
+		<div id='topContent'>
+			<div class="topText topWithFont">
+				<p class="gradient-text">Connexion</p>
+	{% endblock %}
+
+
+	{% block pagecontent %}
+		<div id="backgroundContent">
+			<section>
+				<div class='blockContent blockform'>
+					<div class="backgroundForm">
+						{{ form_start(form) }}
+
+						<div class="my-4">
+							{{ form_row(form.nickname) }}
+						</div>
+						<div>
+							{{ form_row(form.password) }}
+						</div>
+						<button class="myButton">
+							Se connecter
+						</button>
+						{{ form_end(form) }}
+
+
+						<p>Vous n’avez pas encore de compte sur
+							<br>
+							Cognitive Chronicles Game ?</p>
+						<button class="myButton">
+							S'inscrire
+						</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	{% endblock %}
+{% endblock %}

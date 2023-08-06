@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" type="image/webp" href="{{ asset('assets/logo/logo.webp') }}"/>
+		<title>
+			{% block title %}{% endblock %}
+		</title>
+
+		{% block javascripts %}
+			{{ encore_entry_script_tags('front_scripts') }}
+		{% endblock %}
+
+		{% block stylesheets %}
+			{{ encore_entry_link_tags('front_styles') }}
+		{% endblock %}
+	</head>
+
+	<body>
+		{% block header %}
+			{% include 'front/shared/header.html.twig' %}
+		{% endblock %}
+
+		<div class="topContainer">
+				{% block toptext %}{% endblock %}
+			{% block content %}
+				{% include 'front/shared/topContent.html.twig' %}
+			{% endblock %}
+		</div>
+
+
+		{% block pagecontent %}{% endblock %}
+
+		{% block footer %}
+			{% include 'front/shared/footer.html.twig' %}
+		{% endblock %}
+	</body>
+
+</html>

@@ -1,0 +1,19 @@
+App\Entity\User:
+  user_admin:
+    password: "<password()>"
+    email: "admin@example.com"
+    name: "Jean-Michel"
+    lastName: "Duchemin"
+    nickName: "<userName()>"
+    isMan: false
+    dateBirth: "<dateTimeBetween('-18 years', '2023-07-21')>"
+    
+
+  user_{1..499}:
+    password: "<password()>"
+    email: "<email()>"
+    name: "<firstName()>"
+    lastName: "<lastName()>"
+    nickName: "<userName()>"
+    isMan: "<boolean(50)>"
+    dateBirth: "<dateTimeBetween('-18 years', '2023-07-21')>"

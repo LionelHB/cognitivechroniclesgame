@@ -1,0 +1,21 @@
+#searchInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  input {
+    border-radius: 100px;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .search-icon img {
+    width: 20px;
+    height: 20px;
+  }
+}

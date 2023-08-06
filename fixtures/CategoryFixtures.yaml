@@ -1,0 +1,12 @@
+App\Entity\Category:
+  category_1:
+    name: "higherCognitive"
+    description: "<paragraph()>"
+    
+  category_2:
+    name: "logicalThinking"
+    description: "<paragraph()>"
+
+  category_3:
+    name: "sensoryMotorskills"
+    description: "<paragraph()>"

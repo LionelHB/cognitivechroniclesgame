@@ -1,0 +1,60 @@
+App\Entity\SubCategory:
+  subCategory_1:
+    name: "creativity"
+    category: '@category_1'
+    description: "<paragraph()>"
+
+  subCategory_2:
+    name: "memory"
+    category: '@category_1'
+    description: "<paragraph()>"
+
+  subCategory_3:
+    name: "selectiveAttention"
+    category: '@category_1'
+    description: "<paragraph()>"
+
+  subCategory_4:
+    name: "strategicThinking"
+    category: '@category_1'
+    description: "<paragraph()>"
+
+  subCategory_5:
+    name: "cognitiveFlexibility"
+    category: '@category_2'
+    description: "<paragraph()>"
+
+  subCategory_6:
+    name: "decisionMaking"
+    category: '@category_2'
+    description: "<paragraph()>"
+
+  subCategory_7:
+    name: "logic"
+    category: '@category_2'
+    description: "<paragraph()>"
+
+  subCategory_8:
+    name: "spatialReasoning"
+    category: '@category_2'
+    description: "<paragraph()>"
+
+  subCategory_9:
+    name: "handEyeCoordination"
+    category: '@category_3'
+    description: "<paragraph()>"
+
+  subCategory_10:
+    name: "reactionRate"
+    category: '@category_3'
+    description: "<paragraph()>"
+
+  subCategory_11:
+    name: "resourceManagement"
+    category: '@category_3'
+    description: "<paragraph()>"
+
+  subCategory_12:
+    name: "visualPerception"
+    category: '@category_3'
+    description: "<paragraph()>"

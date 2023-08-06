@@ -1,0 +1,54 @@
+.blockform {
+    padding: 0 !important;
+
+    .backgroundForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+        background: $form_gradiant_color;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+
+        p {
+            margin: 6% 0 0 0;
+            padding: 0;
+        }
+
+        form {
+            width: 100%;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            label {
+                display: none;
+            }
+
+            input {
+                border-radius: 10px;
+                background-color: $blockContent_background_content;
+
+                &::placeholder {
+                    padding: 0 10%;
+                    color: $blueBtn_color;
+                    font-family: 'NeonEnergy', sans-serif;
+                }
+            }
+        }
+
+        .myButton {
+            margin-top: 3%;
+            background: $blueBtn_color;
+            border-radius: 10px;
+
+            &:hover {
+                box-shadow: 1px 1px 0px black;
+                background-color: $site_blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+footer {
+    color: $text_color_text_grey;
+    background-color: $headerandfooter_background_color;
+    border-top: 0.5rem solid $site_blue;
+    a {
+        color: $text_color_text_grey;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        margin: 0 ;
+        padding: 0 0 1rem 1rem ;
+
+
+    }
+
+    ul {
+        margin: 1rem 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: end;
+
+        li {
+            font-family: BookAntiqua;
+            font-size: 1rem;
+            margin: 0.5rem 1rem;
+        }
+    }
+}

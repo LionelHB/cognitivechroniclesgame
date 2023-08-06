@@ -1,0 +1,33 @@
+<header>
+
+	<div id='logoTitle'>
+		<a href="{{ path('app_home') }}">
+			<img src="{{ asset('assets/logo/logo.webp') }}" alt="Logo" height="40px" class="mr-2">
+			<p class="gradient-text">Cognitive chronicles game</p>
+		</a>
+	</div>
+	<div id='navLinks'>
+		<ul>
+			<a href="{{ path('app_home') }}">
+				<li>Accueil</li>
+			</a>
+			<a href="{{ path('app_category') }}">
+				<li>Catégories</li>
+			</a>
+			<a href="{{ path('app_nft') }}">
+				<li>NFT ?</li>
+			</a>
+			<a href="{{ path('app_connexion') }}">
+				<li>Connexion</li>
+			</a>
+		</ul>
+	</div>
+
+	<div id='searchInput'>
+		<input type="text" placeholder="Rechercher...">
+		<span class="search-icon">
+			<img src="{{ asset('assets/design/loupe.png') }}" alt="Loupe">
+		</span>
+	</div>
+
+</header>

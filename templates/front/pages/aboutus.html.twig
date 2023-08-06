@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Qui sommes-nous ?
+{% endblock %}
+
+{% block body %}
+	{% block toptext %}
+		<div id='topContent'>
+			<div class="topText topWithFont">
+				<p class="gradient-text">Qui suis-je ?</p>
+			{% endblock %}
+			{% block pagecontent %}
+				<div id="backgroundContent">
+					<section class="sectionAboutUs">
+						<div class="entireBlock">
+							<div class='blockContent'>
+								<div class="contentleft">
+									<h2>
+										Bienvenue sur Cognitive Chronicles Game !
+									</h2>
+									<p>Je m’appelle Lionel, et je suis ravi de vous accueillir ici.
+									</p>
+									<p>Passionné de jeux vidéo et fervent adepte de l'univers des RPGs, j'ai toujours été fasciné par les mondes virtuels qui offrent une évasion captivante et des défis intellectuels uniques.
+									</p>
+								</div>
+							</div>
+
+							<div class="contentright">
+								<img src="{{ asset('assets/design/wam1.png') }}" alt="moi">
+							</div>
+						</div>
+
+						<div class="entireBlock entireBlockReverse">
+							<div class='blockContent'>
+								<div class="contentleft">
+									<p>Je suis persuadé que les jeux vidéo sont bien plus qu'un simple divertissement ;</p>
+									<p>ils constituent une véritable source d'apprentissage et d'exploration du monde qui nous entoure.</p>
+									<p>À travers ce site, j'ai choisi de partager ma passion dans le domaine des jeux vidéo et des compétences cognitives qu’ils réclament.
+									</p>
+								</div>
+							</div>
+
+							<div class="contentright">
+								<img src="{{ asset('assets/design/wam2.png') }}" alt="moi">
+							</div>
+						</div>
+
+						<div class="entireBlock">
+							<div class='blockContent'>
+								<div class="contentleft">
+									<p>J'espère que ce site vous permettra de découvrir ce lien qui uni le monde des jeux vidéo et nos capacités cognitives.</p>
+									<p>N'hésitez pas à parcourir les galeries et collections d'images NFT qui illustrent de manière unique les défis cognitifs que sont les jeux vidéo.</p>
+									<p>Je vous souhaite une excellente exploration sur notre site.
+									</p>
+								</div>
+							</div>
+
+							<div class="contentright">
+								<img src="{{ asset('assets/design/wam3.png') }}" alt="moi">
+							</div>
+						</section>
+					</div>
+				</div>
+
+			{% endblock %}
+		{% endblock %}

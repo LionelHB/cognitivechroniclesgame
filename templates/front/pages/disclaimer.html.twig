@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mentions légales
+{% endblock %}
+
+{% block body %}
+	{% block toptext %}
+		<div id='topContent'>
+			<div class="topText topWithFont">
+				<p class="gradient-text">Mentions légales</p>
+			{% endblock %}
+			{% block pagecontent %}
+				<div id="backgroundContent">
+					<section>
+						<div class='blockContent'>
+							<div class="midpercent">
+								<h2>Mentions légales</h2>
+
+								<span>Nom du site web :
+									<strong>Cognitive Chronicles Game</strong>
+									<br>
+									URL du site :
+									<strong>cognitivechroniclesgame.fr</strong>
+									<br><br>
+									Responsable de la publication :
+									<strong>Lionel</strong>
+									<br><br>
+									Téléphone :
+									<strong>06 06 06 06 06</strong>
+									<br>
+									E-mail :
+									<strong>cognitivechroniclesgame@yahoo.fr</strong>
+									<br><br>
+									Hébergeur du site :
+									<strong>blablabla</strong>
+									<br>
+									Adresse :
+									<strong>rue du bonheur</strong>
+									<br>
+									Téléphone :
+									<strong>04 04 04 04 04</strong>
+									<br>
+									E-mail :
+									<strong>emailhebergeur@hebergeur.fr</strong>
+								</span>
+							</div>
+							<div class="contentright">
+								<h3>Propriété intellectuelle :</h3>
+
+								<p>Le contenu de ce site (textes, images, vidéos, etc.(hors NFTs, biensûre)) est la propriété de Lionel ou de ses ayants droit. Toute reproduction, distribution ou utilisation du contenu sans autorisation préalable est strictement interdite.</p>
+
+								<h3>Protection des données personnelles :</h3>
+								<p>Les informations recueillies à partir des formulaires de ce site font l'objet d'un traitement informatique destiné à Lionel dans le but de répondre aux demandes des utilisateurs et de leur fournir les services ou informations qu'ils ont sollicités.. Conformément à la loi de l’Union européenne : Règlement général sur la protection des données (RGPD), vous bénéficiez d'un droit d'accès, de rectification et de suppression des informations qui vous concernent. Vous pouvez exercer ces droits en nous contactant à l'adresse cognitivechroniclesgame@yahoo.fr</p>
+							</div>
+						</div>
+						<div class='blockContent'>
+							<div class="contentleft">
+								<h3>Cookies :</h3>
+
+								<p>Ce site utilise des cookies pour améliorer l'expérience de navigation et analyser l'utilisation du site. En continuant à naviguer sur ce site, vous acceptez l'utilisation des cookies.</p>
+
+								<h3>Liens vers des sites tiers :</h3>
+
+								<p>Ce site peut contenir des liens vers des sites web tiers. Lionel n'assume aucune responsabilité quant au contenu ou à la politique de confidentialité de ces sites tiers.</p>
+							</div>
+							<div class="contentright">
+								<h3>Limitation de responsabilité :</h3>
+
+								<p>Les informations fournies sur ce site sont données à titre indicatif et Lionel ne peut garantir l'exactitude et l'exhaustivité de ces informations. En conséquence, Lionel décline toute responsabilité pour tout dommage direct ou indirect pouvant résulter de l'utilisation de ce site.</p>
+							</div>
+						</div>
+
+						<div class='blockContent'>
+							<h3>Droit applicable et juridiction compétente :</h3>
+							<p>Les présentes mentions légales sont régies par le droit l’Union européenne : Règlement général sur la protection des données (RGPD). Tout litige relatif à l'utilisation de ce site sera soumis à la compétence exclusive des tribunaux français.</p>
+
+
+							<p>Date de la dernière mise à jour des mentions légales : Le 03 aout 2023.</p>
+							<a href="{{ path('app_home') }}">
+								<p class='oursteam'>L’équipe Cognitive Chronicles Game</p>
+							</a>
+						</div>
+					</section>
+				</div>
+			{% endblock %}
+		{% endblock %}

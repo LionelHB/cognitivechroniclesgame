@@ -1,0 +1,45 @@
+app_home:
+  path: /
+  controller: App\Controller\HomeController::index
+
+
+  # *******************************HEADER *******************************
+
+app_category:
+  path: /category
+  controller: App\Controller\HeaderController:category
+
+app_nft:
+  path: /nft
+  controller: App\Controller\HeaderController:nft
+
+
+
+# *******************************FOOTER *******************************
+
+app_ours:
+  path: /ours
+  controller: App\Controller\FooterController::index
+
+app_partnairs:
+  path: /ours/partnairs
+  controller: App\Controller\FooterController::partnairs
+
+app_about:
+  path: /ours/about
+  controller: App\Controller\FooterController::about
+
+app_disclaimer:
+  path: /ours/mention_l_égale
+  controller: App\Controller\FooterController::disclaimer
+
+app_dmca:
+  path: /ours/dmca
+  controller: App\Controller\FooterController::dmca
+  
+
+# *******************************CONNEXION *******************************
+
+app_connexion:
+  path: /connexion
+  controller: App\Controller\ConnexionController:connexion

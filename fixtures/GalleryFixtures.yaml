@@ -1,0 +1,6 @@
+App\Entity\Gallery:
+  gallery_{1..300}: 
+    name: "<word()>"
+    isPublic: "<boolean(90)>"
+    ownerUser: '@user_*'
+    description: "<paragraph()>"
