@@ -1,18 +1,49 @@
 .blockform {
+    position: relative;
     padding: 0 !important;
+    overflow: hidden;
+    height: 500px;
+    width: 100px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        height: 120%;
+        width: 100%;
+        background: linear-gradient(0deg, transparent, #045a70, #045a70);
+        transform-origin: bottom right;
+        animation: turnAroundForm 6s linear infinite;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        height: 120%;
+        width: 100%;
+        background: linear-gradient(0deg, transparent, #045a70, #045a70);
+        transform-origin: bottom right;
+        animation: turnAroundForm 6s linear infinite;
+        animation-delay: -3s;
+    }
 
     .backgroundForm {
+        background: $form_gradiant_color;
+        z-index: 10;
+        position: absolute;
+        inset: 2px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 2%;
-        background: $form_gradiant_color;
-        height: 100%;
-        width: 100%;
         border-radius: 20px;
 
         p {
+            color: $text_color_text_grey;
             margin: 6% 0 0 0;
             padding: 0;
         }
@@ -50,5 +81,16 @@
                 background-color: $site_blue;
             }
         }
+    }
+}
+
+
+@keyframes turnAroundForm {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
