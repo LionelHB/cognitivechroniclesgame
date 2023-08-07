@@ -1,4 +1,5 @@
 App\Entity\Comment:
    comment_{1..1000}:
+    nft_: '@nft_*'
     note: "<text()>"
     creationDate: '<dateTimeBetween(2022-07-05", "now")>'
