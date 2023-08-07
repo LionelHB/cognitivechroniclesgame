@@ -9,7 +9,7 @@ App\Entity\Nft:
         dateLastSale: '<dateTimeBetween("2018-02-13", "now")>'
         identificationKey: '<word(17)>'
         nftPath: "www.TODO.fr"
-        priceETH: "<randomFloat(0, 3, 3)>"
+        priceETH: <randomFloat(6, 0, 3)>
         priceEUR: 0
         priceUSD: 0
         isPublic: "<boolean(98)>"
@@ -30,7 +30,7 @@ App\Entity\Nft:
         dateLastSale: '<dateTimeBetween("2018-02-13", "now")>'
         identificationKey: '<word(17)>'
         nftPath: "www.TODO.fr"
-        priceETH: "<randomFloat(0, 3, 3)>"
+        priceETH: <randomFloat(6, 0, 3)>
         priceEUR: 0
         priceUSD: 0
         isPublic: "<boolean(98)>"
