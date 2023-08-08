@@ -1,0 +1,33 @@
+.accordion-item,
+.accordion-button {
+    background-color: $blockContent_background_content !important;
+}
+
+.accordion-button {
+    border-radius: 50px !important;
+    font-family: NeonEnergy, sans-serif;
+    font-size: 1.5rem !important;
+
+    &:focus {
+        box-shadow: $site_blue !important;
+        color: $blueBtn_color !important;
+    }
+
+    &:not(.collapsed) {
+        box-shadow: $site_blue !important;
+        color: $blueBtn_color !important;
+    }
+
+    &:active {
+        box-shadow: $site_blue !important;
+
+    }
+}
+
+.accordion {
+    width: 50% !important;
+
+    .show {
+        border-bottom: 2px solid $site_blue !important;
+    }
+}

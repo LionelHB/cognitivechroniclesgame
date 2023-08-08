@@ -8,26 +8,26 @@
     &::before {
         content: "";
         position: absolute;
-        top: -50%;
+        top: -70%;
         left: -50%;
-        height: 120%;
+        height: 130%;
         width: 100%;
         background: linear-gradient(0deg, transparent, #045a70, #045a70);
         transform-origin: bottom right;
-        animation: turnAroundForm 6s linear infinite;
+        animation: turnAroundForm 8s linear infinite;
     }
 
     &::after {
         content: "";
         position: absolute;
-        top: -50%;
+        top: -70%;
         left: -50%;
-        height: 120%;
+        height: 130%;
         width: 100%;
         background: linear-gradient(0deg, transparent, #045a70, #045a70);
         transform-origin: bottom right;
-        animation: turnAroundForm 6s linear infinite;
-        animation-delay: -3s;
+        animation: turnAroundForm 8s linear infinite;
+        animation-delay: -4s;
     }
 
     .backgroundForm {
@@ -41,6 +41,9 @@
         flex-direction: column;
         padding: 2%;
         border-radius: 20px;
+        h3{
+            color: $text_color_text_grey;
+        }
 
         p {
             color: $text_color_text_grey;
@@ -79,6 +82,50 @@
             &:hover {
                 box-shadow: 1px 1px 0px black;
                 background-color: $site_blue;
+            }
+        }
+
+        form {
+            display: flex;
+
+            .formContact {
+                display: flex;
+
+                .formContactInput {
+                    display: flex;
+                    flex-direction: column;
+                    width: min-content;
+
+                    .formContactName {
+                        display: flex;
+                    }
+
+                    .formContactInfos {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                }
+
+                .formContactMessage {
+                    div {
+                        height: 100%;
+
+                        textarea {
+                            height: 100%;
+                            border-radius: 10px;
+                            background-color: $blockContent_background_content;
+                            resize: none;
+            
+                            &::placeholder {
+                                padding: 0 10%;
+                                color: $blueBtn_color;
+                                font-family: 'NeonEnergy', sans-serif;
+                            }
+                            
+                        }
+                    }
+                } 
             }
         }
     }

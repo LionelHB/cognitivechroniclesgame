@@ -4,36 +4,64 @@
 {% endblock %}
 
 {% block body %}
-{% block toptext %}
+	{% block toptext %}
 		<div id='topContent'>
 			<div class="topText topWithFont">
 				<p class="gradient-text">Les partenaires</p>
 			{% endblock %}
-	{% block pagecontent %}
-		<div id="backgroundContent">
-			<section>
-				<div class='blockContent'>
-					<div class='blockImagePartnairs'>
-						<div class='partnair'>
-							<img src="{{ asset('assets/logo/partnair0.webp') }}" alt="Logo">
-							<h3>QuestRelicChain</h3>
-						</div>
+			{% block pagecontent %}
+				<div id="backgroundContent">
+					<section>
+						<div class='blockContent'>
+							<div class='blockImagePartnairs'>
+								<div class='partnair'>
+									<img src="{{ asset('assets/logo/partnair0.webp') }}" alt="Logo">
+									<h3>QuestRelicChain</h3>
+								</div>
 
-						<div class='partnair'>
-							<img src="{{ asset('assets/logo/partnair1.1.webp') }}" alt="Logo">
-							<h3>Les chantiers du Gobelin</h3>
-						</div>
+								<div class='partnair'>
+									<img src="{{ asset('assets/logo/partnair1.1.webp') }}" alt="Logo">
+									<h3>Les chantiers du Gobelin</h3>
+								</div>
 
-						<div class='partnair'>
-							<img src="{{ asset('assets/logo/partnair2.webp') }}" alt="Logo">
-							<h3>Zen RPG</h3>
+								<div class='partnair'>
+									<img src="{{ asset('assets/logo/partnair2.webp') }}" alt="Logo">
+									<h3>Zen RPG</h3>
+								</div>
+							</div>
 						</div>
-					</div>
+						<div class='blockContent blockform'>
+							<div class="backgroundForm">
+						<h3>Faire une demande de partenariat</h3>
+								{{ form_start(form) }}
+
+								<div class='formContact'>
+									<div class='formContactInput'>
+										<div class='formContactName'>
+											{{ form_row(form.firstName) }}
+											{{ form_row(form.lastName) }}
+										</div>
+										<div class='formContactInfos'>
+											{{ form_row(form.email) }}
+											{{ form_row(form.compagny) }}
+											{{ form_row(form.telephone) }}
+										</div>
+									</div>
+
+									<div class='formContactMessage'>
+										{{ form_row(form.message) }}
+									</div>
+								</div>
+
+								<button class="myButton">
+									Envoyer
+								</button>
+								{{ form_end(form) }}
+
+							</div>
+
+						</div>
+					</section>
 				</div>
-				<div class='blockContent'>
-					
-				</div>
-			</section>
-		</div>
-	{% endblock %}
-{% endblock %}
+			{% endblock %}
+		{% endblock %}

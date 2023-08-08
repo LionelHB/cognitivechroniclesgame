@@ -20,4 +20,5 @@ class ConnexionController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
+    // #[Route('partenaires', name: 'app_partnair')]
 }

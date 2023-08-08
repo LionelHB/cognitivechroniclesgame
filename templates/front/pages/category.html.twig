@@ -4,17 +4,59 @@
 {% endblock %}
 
 {% block body %}
-{% block toptext %}
+	{% block toptext %}
 		<div id='topContent'>
 			<div class="topText topWithFont">
 				<p class="gradient-text">Les catégories</p>
-	{% endblock %}
+			{% endblock %}
 
-	{% block pagecontent %}
-		<div id="backgroundContent">
-			<section>
+			{% block pagecontent %}
+				<div id="backgroundContent">
+					<section>
 
-			</section>
-		</div>
+						<div class="blockContent accordion accordion-flush" id="accordionFlushExample">
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+										cognitif supérieur
+									</button>
+								</h2>
+								<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">la créativité</div>
+									<div class="accordion-body">la Mémoire</div>
+									<div class="accordion-body">l’attention sélective</div>
+									<div class="accordion-body">réflexion stratégique</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+										pensée logique
+									</button>r
+								</h2>
+								<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">la flexibilité cognitive</div>
+									<div class="accordion-body">la prise de décision</div>
+									<div class="accordion-body">la logique</div>
+									<div class="accordion-body">le raisonnement spatial</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+										motricité sensorielle
+									</button>
+								</h2>
+								<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">la Coordination œil-main</div>
+									<div class="accordion-body">le temps de réaction</div>
+									<div class="accordion-body">la gestion des ressources</div>
+									<div class="accordion-body">la perception visuelle</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		{% endblock %}
 	{% endblock %}
-{% endblock %}
