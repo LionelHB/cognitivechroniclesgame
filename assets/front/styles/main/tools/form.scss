@@ -41,7 +41,9 @@
         flex-direction: column;
         padding: 2%;
         border-radius: 20px;
-        h3{
+
+        h3 {
+            margin-bottom: 3rem;
             color: $text_color_text_grey;
         }
 
@@ -63,6 +65,8 @@
             }
 
             input {
+                margin: 0 1rem 1rem 1rem;
+                height: 4rem;
                 border-radius: 10px;
                 background-color: $blockContent_background_content;
 
@@ -89,6 +93,7 @@
             display: flex;
 
             .formContact {
+                margin-top: 1rem;
                 display: flex;
 
                 .formContactInput {
@@ -101,8 +106,14 @@
                     }
 
                     .formContactInfos {
+                        width: initial;
                         display: flex;
                         flex-direction: column;
+
+                        input {
+
+                            width: calc(100% - 2rem);
+                        }
                     }
 
                 }
@@ -112,20 +123,28 @@
                         height: 100%;
 
                         textarea {
-                            height: 100%;
+                            margin: 0 1rem;
+                            padding: 2%;
+                            height: calc(100% - 1rem);
                             border-radius: 10px;
                             background-color: $blockContent_background_content;
                             resize: none;
-            
+
+                            &:focus {
+                                font-family: 'BookAntiqua', sans-serif;
+
+                            }
+
                             &::placeholder {
                                 padding: 0 10%;
                                 color: $blueBtn_color;
                                 font-family: 'NeonEnergy', sans-serif;
+
+
                             }
-                            
                         }
                     }
-                } 
+                }
             }
         }
     }
