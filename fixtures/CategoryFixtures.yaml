@@ -1,12 +1,12 @@
 App\Entity\Category:
   category_1:
-    name: "higherCognitive"
-    description: "<paragraph()>"
+    name: "cognitif supérieur"
+    description: "La catégorie \"Cognitif Supérieur\" incarne l'essence de l'intelligence stratégique et créative dans le monde des jeux vidéo. Elle englobe les compétences cognitives qui façonnent les maîtres du jeu, ceux qui planifient, anticipent et innovent. Des compétences telles que la réflexion stratégique, la créativité et la prise de décision sont les piliers de cette catégorie. Les joueurs qui excellent dans le cognitif supérieur naviguent à travers des défis complexes avec aisance, transformant chaque situation en une opportunité de démontrer leur maîtrise du jeu."
     
   category_2:
-    name: "logicalThinking"
-    description: "<paragraph()>"
+    name: "pensée logique"
+    description: "La catégorie \"Pensée Logique\" est le repère des énigmes, des mystères et des solutions astucieuses. Elle englobe les compétences cognitives qui mettent l'accent sur l'analyse systématique, la déduction et la résolution de problèmes. Des compétences telles que la mémoire, la logique et la perception visuelle trouvent leur place ici. Les joueurs qui excellent dans la pensée logique décomposent les défis en éléments compréhensibles, dévoilant des solutions cachées et éclairant le chemin vers la réussite."
 
   category_3:
-    name: "sensoryMotorskills"
-    description: "<paragraph()>"
+    name: "motricité sensorielle"
+    description: "La catégorie \"Motricité Sensorielle\" est le foyer des réactions rapides, des mouvements gracieux et de la coordination parfaite. Elle englobe les compétences cognitives qui permettent aux joueurs de maîtriser les mouvements, de saisir les opportunités éphémères et d'exécuter des actions avec précision. Des compétences telles que la coordination œil-main, le temps de réaction et la gestion des ressources trouvent leur place ici. Les joueurs qui excellent dans la motricité sensorielle jonglent habilement avec les contrôles et réagissent instantanément aux défis qui se présentent à eux."

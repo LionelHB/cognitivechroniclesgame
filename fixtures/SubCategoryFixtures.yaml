@@ -1,60 +1,60 @@
 App\Entity\SubCategory:
   subCategory_1:
-    name: "creativity"
+    name: "La créativité"
     category: '@category_1'
-    description: "<paragraph()>"
+    description: "La créativité est le carburant de l'innovation dans le monde des jeux vidéo. C'est la capacité à imaginer des mondes uniques, des personnages captivants et des mécaniques de jeu originales. Les joueurs créatifs apportent une touche personnelle à chaque expérience, en explorant de nouvelles idées et en défiant les conventions établies. De la conception de niveaux époustouflants à la création d'histoires immersives, la créativité est ce qui transforme les jeux vidéo en œuvres d'art interactives."
 
   subCategory_2:
-    name: "memory"
+    name: "La mémoire"
     category: '@category_1'
-    description: "<paragraph()>"
+    description: "La mémoire est la pierre angulaire de l'expertise dans les jeux vidéo. Elle permet aux joueurs de se souvenir des cartes, des chemins, des attaques et des compétences. Les joueurs avec une mémoire aiguisée peuvent rapidement adapter leur stratégie en se basant sur les événements passés, ce qui leur donne un avantage dans les défis à venir. La mémoire est le fil conducteur qui relie les moments de triomphe et d'apprentissage, façonnant l'évolution des joueurs."
 
   subCategory_3:
-    name: "selectiveAttention"
+    name: "L'attention sélective"
     category: '@category_1'
-    description: "<paragraph()>"
+    description: "mL'attention sélective est la compétence de concentrer son focus sur des éléments spécifiques dans un environnement complexe. Dans les jeux vidéo, elle permet aux joueurs de repérer les indices, les adversaires embusqués et les opportunités cachées. Une attention sélective affûtée peut transformer une simple scène en une mine d'informations cruciales, donnant aux joueurs un avantage précieux pour relever les défis."
 
   subCategory_4:
-    name: "strategicThinking"
+    name: "La réflexion stratégique"
     category: '@category_1'
-    description: "<paragraph()>"
+    description: "La réflexion stratégique est le joyau de la couronne des compétences cognitives dans les jeux vidéo. Elle exige que les joueurs anticipent les conséquences de leurs actions, analysent les options disponibles et planifient des mouvements futurs avec perspicacité. Une réflexion stratégique solide peut transformer une partie en un ballet élaboré de tactiques ingénieuses, donnant naissance à des retournements de situation épiques et des victoires savoureuses."
 
   subCategory_5:
-    name: "cognitiveFlexibility"
+    name: "La flexibilité cognitive"
     category: '@category_2'
-    description: "<paragraph()>"
+    description: "La flexibilité cognitive est la clé pour naviguer dans des mondes en constante évolution. Elle permet aux joueurs de s'adapter rapidement aux changements de situation, de changer de stratégie en un instant et d'explorer de nouvelles approches. Une flexibilité mentale agile ouvre des portes à l'expérimentation et à l'innovation, permettant aux joueurs de relever des défis variés avec assurance."
 
   subCategory_6:
-    name: "decisionMaking"
+    name: "La prise de décision"
     category: '@category_2'
-    description: "<paragraph()>"
+    description: "La prise de décision éclairée est la pierre angulaire du succès dans les jeux vidéo. Les joueurs doivent évaluer rapidement les options, peser les risques et les avantages, et choisir la voie qui les rapprochera le plus de la victoire. Une prise de décision précise peut transformer des moments critiques en opportunités triomphantes, façonnant le déroulement du jeu et laissant une empreinte durable."
 
   subCategory_7:
-    name: "logic"
+    name: "La logique"
     category: '@category_2'
-    description: "<paragraph()>"
+    description: "La logique est l'outil qui guide les joueurs à travers les labyrinthes complexes des énigmes et des puzzles. C'est la compétence de résoudre des problèmes basés sur des règles et des relations. Les joueurs logiques décomposent les défis en éléments compréhensibles, dévoilant des solutions cachées et éclairant le chemin vers la réussite."
 
   subCategory_8:
-    name: "spatialReasoning"
+    name: "Le raisonnement spatial"
     category: '@category_2'
-    description: "<paragraph()>"
+    description: "Le raisonnement spatial est la compétence de comprendre et de manipuler l'espace virtuel d'un jeu. Cela permet aux joueurs de naviguer avec aisance à travers des environnements tridimensionnels, de prévoir les trajectoires et d'anticiper les mouvements. Les joueurs dotés d'un raisonnement spatial aiguisé réalisent des cascades impossibles et conquièrent des terrains autrement inaccessibles."
 
   subCategory_9:
-    name: "handEyeCoordination"
+    name: "La Coordination œil-main"
     category: '@category_3'
-    description: "<paragraph()>"
+    description: "La coordination œil-main est l'harmonie entre les mouvements visuels et les actions motrices. Elle permet aux joueurs d'exécuter des manœuvres complexes avec fluidité, de viser avec précision et de réagir instantanément. Une coordination œil-main exceptionnelle est la force motrice derrière les mouvements élégants, les tirs parfaits et les actions décisives."
 
   subCategory_10:
-    name: "reactionRate"
+    name: "Le temps de réaction"
     category: '@category_3'
-    description: "<paragraph()>"
+    description: "Le temps de réaction est la compétence de répondre rapidement aux stimuli visuels ou auditifs. Les joueurs ayant un temps de réaction rapide ont un avantage lorsqu'il s'agit d'éviter les dangers soudains, de saisir des opportunités fugaces et de déclencher des actions précises. Une réponse rapide peut transformer un instant critique en une victoire spectaculaire."
 
   subCategory_11:
-    name: "resourceManagement"
+    name: "La gestion des ressources"
     category: '@category_3'
-    description: "<paragraph()>"
+    description: "La gestion des ressources est l'art de gérer judicieusement les éléments limités tels que l'argent, l'énergie et les objets. Cette compétence permet aux joueurs de maximiser leur efficacité, de maintenir un équilibre délicat et de prospérer dans des environnements aux ressources restreintes. Une gestion avisée peut conduire à une progression constante et à une domination durable."
 
   subCategory_12:
-    name: "visualPerception"
+    name: "La perception visuelle"
     category: '@category_3'
-    description: "<paragraph()>"
+    description: "La perception visuelle est la capacité à détecter et à interpréter les informations visuelles. Elle permet aux joueurs de repérer les détails subtils, d'identifier les indices visuels et de réagir rapidement aux changements dans l'environnement du jeu. Une perception visuelle affûtée transforme chaque écran en une toile d'informations riches, permettant aux joueurs de lire le jeu comme un livre ouvert."
