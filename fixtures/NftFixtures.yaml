@@ -8,7 +8,7 @@ App\Entity\Nft:
         dateFirstSale: '<dateTimeBetween("2008-11-01", "2018-02-12")>'
         dateLastSale: '<dateTimeBetween("2018-02-13", "now")>'
         identificationKey: '<word(17)>'
-        nftPath: "www.TODO.fr"
+        nftPath: "public/assets/nft"
         priceETH: <randomFloat(6, 0, 3)>
         priceEUR: 0
         priceUSD: 0
@@ -35,7 +35,7 @@ App\Entity\Nft:
         dateFirstSale: '<dateTimeBetween("2008-11-01", "2018-02-12")>'
         dateLastSale: '<dateTimeBetween("2018-02-13", "now")>'
         identificationKey: '<word(17)>'
-        nftPath: "www.TODO.fr"
+        nftPath: "public/assets/nft"
         priceETH: <randomFloat(6, 0, 3)>
         priceEUR: 0
         priceUSD: 0
@@ -56,7 +56,7 @@ App\Entity\Nft:
         dateFirstSale: '<dateTimeBetween("2008-11-01", "2018-02-12")>'
         dateLastSale: '<dateTimeBetween("2018-02-13", "now")>'
         identificationKey: '<word(17)>'
-        nftPath: "www.TODO.fr"
+        nftPath: "public/assets/nft"
         priceETH: <randomFloat(6, 0, 3)>
         priceEUR: 0
         priceUSD: 0

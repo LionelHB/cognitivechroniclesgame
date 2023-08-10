@@ -146,3 +146,18 @@ body {
     }
   }
 }
+
+
+.blockParentNft{
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+.blockNft{
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}

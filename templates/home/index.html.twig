@@ -14,37 +14,46 @@
 				<p>Tout cela en
 					<span id='blueNFT'>NFT
 					</span>!</p>
-	{% endblock %}
+			{% endblock %}
 
 
-	{% block pagecontent %}
-		<div id="backgroundContent">
-			<section>
-				<div class='blockContent'>
-					<h2>Bienvenue dans Cognitive Chronicles Game !</h2>
+			{% block pagecontent %}
+				<div id="backgroundContent">
+					<section>
+						<div class='blockContent'>
+							<h2>Bienvenue dans Cognitive Chronicles Game !</h2>
+						</div>
+
+						<div class='blockContent'>
+							<p>
+								Entrez dans un univers ludique où les défis cognitifs se mêlent aux jeux vidéo pour vous offrir une expérience unique et captivante. Ici, les esprits curieux et les joueurs passionnés se rencontrent pour explorer les méandres de la cognition tout en s'amusant !</p>
+						</div>
+						<div class='blockContent'>
+							<p>
+								Dans nos galeries, les NFT prennent vie dans des mondes numériques qui éveillent l'imagination et stimulent les méninges. Plongez dans des énigmes cérébrales, résolvez des puzzles captivants et développez vos compétences cognitives sans même vous en rendre compte.</p>
+						</div>
+						<div class='blockContent'>
+							<p>
+								Mais ne vous méprenez pas, ici, on ne se prend pas trop au sérieux ! Laissez libre cours à votre créativité et votre esprit joueur. Faites de chaque défi un voyage empreint de bonne humeur et de découvertes, car le plaisir est au cœur de Cognitive Chronicles Game.</p>
+						</div>
+						<div class='blockContent'>
+							<p>
+								Derrière chaque NFT, il y a plus qu'une simple image, il y a une réflexion, une compréhension, une connexion. Vous découvrirez que nos défis cachent un message subtil, une sensibilisation à l'importance de la cognition dans nos vies quotidiennes. Parce qu'apprendre peut être amusant, et que le jeu peut être éducatif !</p>
+						</div>
+						<div class='blockContent'>
+							<p>
+								Alors, qu'attendez-vous ? Plongez dans l'univers enchanteur de Cognitive Chronicles Game, explorez, résolvez et partagez vos réussites avec notre communauté bienveillante. Rejoignez-nous pour faire partie de cette aventure unique où le plaisir et la réflexion se rencontrent !</p>
+						</div>
+					</section>
 				</div>
 
-				<div class='blockContent'>
-					<p>
-						Entrez dans un univers ludique où les défis cognitifs se mêlent aux jeux vidéo pour vous offrir une expérience unique et captivante. Ici, les esprits curieux et les joueurs passionnés se rencontrent pour explorer les méandres de la cognition tout en s'amusant !</p>
+				<div class='blockParentNft'>
+					{% for nft in nfts %}
+						<div class='blockNft'>
+							<img src='{{ nft.nftPath }}'>
+						</div>
+					{% endfor %}
 				</div>
-				<div class='blockContent'>
-					<p>
-						Dans nos galeries, les NFT prennent vie dans des mondes numériques qui éveillent l'imagination et stimulent les méninges. Plongez dans des énigmes cérébrales, résolvez des puzzles captivants et développez vos compétences cognitives sans même vous en rendre compte.</p>
-				</div>
-				<div class='blockContent'>
-					<p>
-						Mais ne vous méprenez pas, ici, on ne se prend pas trop au sérieux ! Laissez libre cours à votre créativité et votre esprit joueur. Faites de chaque défi un voyage empreint de bonne humeur et de découvertes, car le plaisir est au cœur de Cognitive Chronicles Game.</p>
-				</div>
-				<div class='blockContent'>
-					<p>
-						Derrière chaque NFT, il y a plus qu'une simple image, il y a une réflexion, une compréhension, une connexion. Vous découvrirez que nos défis cachent un message subtil, une sensibilisation à l'importance de la cognition dans nos vies quotidiennes. Parce qu'apprendre peut être amusant, et que le jeu peut être éducatif !</p>
-				</div>
-				<div class='blockContent'>
-					<p>
-						Alors, qu'attendez-vous ? Plongez dans l'univers enchanteur de Cognitive Chronicles Game, explorez, résolvez et partagez vos réussites avec notre communauté bienveillante. Rejoignez-nous pour faire partie de cette aventure unique où le plaisir et la réflexion se rencontrent !</p>
-				</div>
-			</section>
-		</div>
-	{% endblock %}
-{% endblock %}
+
+			{% endblock %}
+		{% endblock %}
